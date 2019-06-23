@@ -5,7 +5,7 @@ def sendMail(re_add,subject,message):
     smtp_server = "smtp.gmail.com"
     port = 587  # For starttls
     sender_email ="vk3334703@gmail.com"
-    password = "vIKKY123@"
+    password = ""
     message=subject+"    " +message
 
 	# Create a secure SSL context
